@@ -221,9 +221,7 @@
 
                         {/* Binance Logo and App Title */}
                         <div className="flex items-center space-x-2 cursor-pointer" onClick={() => navigate('dashboardPage')}>
-                            {/* Updated src to the new image */}
-                            <img src="icon (1).png" alt="Binance Web3 Wallet Icon" className="w-10 h-10" />
-                            <span className="text-xl font-bold text-binance-text-light">Binance Web3 Wallet</span>
+                            <span className="text-xl font-bold text-binance-text-light">BINANCE</span>
                         </div>
 
                         {/* Main Navigation Links (hidden on small screens) */}
@@ -1217,7 +1215,7 @@
             // Simulate immediate connection and balance fetch if coming from landing page "Connect Wallet"
             useEffect(() => {
                 if (fromLanding && !userStatus.connectedWalletInfo) {
-                    const simulatedAddress = '0x1234567890abcdef1234567890abcdef12345678';
+                    const simulatedAddress = 
                     const simulatedBalances = {
                         BNB: '0.5 BNB',
                         ETH: '0.12 ETH',
